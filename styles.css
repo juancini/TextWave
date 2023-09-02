@@ -6,7 +6,16 @@
     background-color: darkgrey;
 }
 .TextWave{
+    margin: auto;
     width: 90%;
+    overflow-wrap: break-word;
+    border-style: double;
+    border-radius: 25px;
+    font-size: large;
     font-weight: bold;
     color: beige;
+}
+
+p{
+    z-index: -1;
 }
