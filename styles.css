@@ -3,9 +3,14 @@
     padding: 0;
     font-family: monospace;
     box-sizing: border-box;
-    background-color: darkgrey;
+    background-color: #2b5329;
 }
 .TextWave{
+    width: 60%;
+    align-self: center;
+}
+#targetText{
+    text-align: justify;
     margin: auto;
     width: 90%;
     overflow-wrap: break-word;
@@ -13,9 +18,9 @@
     border-radius: 25px;
     font-size: large;
     font-weight: bold;
-    color: beige;
+    color: #149414;
 }
 
 p{
-    z-index: -1;
+    padding: 0 25px 25px;
 }
